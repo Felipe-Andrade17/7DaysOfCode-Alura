@@ -1,3 +1,4 @@
+@import url("./styles/navbar.css");
 @import url("./styles/header.css");
 
 :root{
@@ -15,6 +16,7 @@ body{
     background-color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
+    font-weight: 400;
     color: var(--preto);
 }
 
