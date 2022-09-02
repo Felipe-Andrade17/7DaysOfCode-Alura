@@ -1,9 +1,10 @@
 .header{
 
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 36px;
-    padding: 96px 20%;
+    padding: 96px 0;
     text-align: center;
 
 }
@@ -12,6 +13,7 @@
 
     font-weight: 600;
     color: var(--vermelho--escuro);
+    
 }
 
 .header__titulo{
@@ -23,5 +25,24 @@
 .header__texto{
 
     font-size: 20px;
+    max-width: 60vw;
     color: var(--cinza);
+}
+
+.header__subTitulo--background{
+
+    background: var(--cinza-rbga);
+    width: 125px;
+    margin: 0 auto;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.vagas__header__imagem{
+
+    width: 1216px;
+    height: 400px;
+    background-image: url("../img/reuniao.svg");
+    background-repeat: no-repeat;
+    
 }
